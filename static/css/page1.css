@@ -1,0 +1,41 @@
+
+body{
+    width: 1300px;
+    background-image: url("../img/bg2.jpg");
+    background-color: #00265A;
+    text-align: center;
+    line-height: 50px;
+    font-size: 50px;
+    font-family: "Arial";
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+#wecml{
+    margin-top: 200px;
+}
+.remove{
+
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #87CEEB;
+    margin-left: 995px;
+    margin-top: 155px;
+    background:linear-gradient(-45deg,grey 0%,#87CEEB 100%);
+}
+.remove input{
+    margin-top: 0PX;
+    display: inline-block;
+    background-color: rgba(0,0,0,0);
+    width: 100px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0px;
+    position: relative;
+    top: -7px;
+    color: red;
+
+}

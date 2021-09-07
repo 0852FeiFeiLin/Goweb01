@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/logout.css">
+
+</head>
+<body>
+<div class="box2">
+    <form action="/logout" method = "post" > <!--/logout是点击后发送请求的后端提交地址 -->
+        <span class="span1">请输入要注销的用户名密码：</span>
+        <div class="r1">
+            User：<input type="text" name="username" class="e1" placeholder="请输入用户名" id="username"><br>
+        </div>
+        <div class="r2">
+            Password：<input type="password" name="password" placeholder="请输入密码" class="e2" id="password"><br>
+        </div>
+        <!-- 这里的点击提交按钮，就会发送form表单，提交action="后端提交地址"-->
+        <input type="submit" name="yes" value="确定" class="r3">
+        <input type="button" name="no" value="返回" class="r4" id ="remove">
+    </form>
+</div>
+</body>
+</html>

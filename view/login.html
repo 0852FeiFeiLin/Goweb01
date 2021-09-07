@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <link rel="stylesheet" type="text/css" href="../static/css/login.css">
+</head>
+<body>
+<div class="body1">
+    <!-- 先有一个用户表单 -->
+    <div class="form">
+        <form action="/login" method="post"> <!--/login是点击submit按钮后发送请求的后端提交地址 -->
+            <div class="d1">
+                用户名：<input type="text" name="username" class="d1"><br>
+            </div>
+            <div class="d2">
+                密码：<input type="password" name="password" class="d2"><br>
+            </div>
+            <input type="submit" name="login" value="登录" class="d3">
+            <a href="/register1.html" class="btn">
+                <input type="button" name="/login1" class="d4" value="注册"/>
+            </a>
+        </form>
+    </div>
+</div>
+</body>
+</html>

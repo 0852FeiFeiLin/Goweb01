@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+
+    background-image: url("../img/err.jpg");
+    line-height: 50px;
+
+}
+.main h1{
+
+    font-size: 50px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    margin-top: 100px;
+
+}
+.main h4{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+.main a{
+    color: red;
+    display: inline-block;
+    width: 600px;
+    height: 200px;
+    margin-left: 500px;
+    text-decoration: none;
+}
